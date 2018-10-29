@@ -1,0 +1,6 @@
+projectKey=tpsonar
+serverUrl=http://localhost:9000
+serverVersion=6.7.5.38563
+dashboardUrl=http://localhost:9000/dashboard/index/tpsonar
+ceTaskId=AWa_XGRnz5NDTkBasIJR
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWa_XGRnz5NDTkBasIJR
