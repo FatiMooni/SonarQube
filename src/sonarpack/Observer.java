@@ -1,4 +1,4 @@
-
+package sonarpack;
 
 public abstract class Observer {
 	protected Subject subject;

@@ -1,3 +1,4 @@
+package sonarpack;
 
 
 import java.io.Serializable;
@@ -6,8 +7,12 @@ import java.util.List;
 
 public class Subject implements Serializable{
 	
-	 private List<Observer> observers = new ArrayList<Observer>();
-	 private String state;
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private List<Observer> observers = new ArrayList<Observer>();
+	private String state;
 
 
 	public void attach(Observer observer) {
